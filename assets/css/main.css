@@ -1089,15 +1089,6 @@
         
 	}
 
-@media only screen and (max-device-width : 1440px) {
-    #me.pic {
-            visibility: hidden;
-            display: none;
-            width: 0%;
-            height: 0%;
-        }
-    }
-
 		#me .pic:before {
 			content: '';
 			position: absolute;
