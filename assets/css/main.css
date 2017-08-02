@@ -1081,18 +1081,20 @@
 	}
 
 /* Me */
-@media only screen and (max-device-width : 1440px) {
-    #me.pic {
-            visibility: hidden;
-            display: none;
-        }
-    }
+
 	#me .pic {
 		position: relative;
 		display: block;
         width: 40%;
         
 	}
+
+@media only screen and (max-device-width : 1440px) {
+    #me.pic {
+            visibility: hidden;
+            display: none;
+        }
+    }
 
 		#me .pic:before {
 			content: '';
